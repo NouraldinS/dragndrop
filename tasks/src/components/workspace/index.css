@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  margin: 0 auto;
+  align-items: stretch;
+  justify-items: stretch;
+}
+
+.grid > div {
+  user-select: none;
+  cursor: grab;
+  pointer-events: auto;
+  padding: 25px 10px;
+  border: 1px solid #aeaeae;
+  background-color: #f0f0f0;
+}
